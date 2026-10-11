@@ -41,3 +41,9 @@ subprocess protocols, SQLx supports both SQL backends, and PyO3 supports Rust/Py
 bindings. Integration is not tested. The hard part is semantic agreement across
 native idempotency, settlement, history, ownership and restoration. See
 [SOURCES.md](SOURCES.md). Draft 0 records these unresolved boundaries.
+
+## Native behavior study
+
+Use [the SDK composition findings](research/COMPOSITION.md) to revise the vocabulary
+before expanding types. Preserve native Codex/Claude behavior rather than replacing
+their loops. Pi/opencode behavior corrections are later work, not authorized now.

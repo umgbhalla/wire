@@ -6,6 +6,8 @@ storage and compatibility.
 **Specification only. Nothing is implemented.** The future codebase will use Rust
 with PyO3 bindings for Python. Codex, Claude Code and Pi will be separate crates.
 
+- [SDK composition study](docs/research/COMPOSITION.md)
+- [Local reference worktrees](docs/research/WORKTREES.md)
 - [Type and behavioral specification](docs/SPEC.md)
 - [Design work plan](docs/PLAN.md)
 - [Visual design](docs/show-me-wire.html)

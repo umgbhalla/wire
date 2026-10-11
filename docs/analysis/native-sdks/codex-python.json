@@ -1,0 +1,2140 @@
+{
+  "files": [
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/__init__.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_approval_mode.py",
+      "cognitive": 5,
+      "cyclomatic": 8,
+      "functions": [
+        {
+          "name": "_approval_mode_settings",
+          "kind": "function",
+          "line": 20,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_assert_never_approval_mode",
+          "kind": "function",
+          "line": 40,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_approval_mode_override_settings",
+          "kind": "function",
+          "line": 45,
+          "cognitive": 1,
+          "cyclomatic": 2
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_goal.py",
+      "cognitive": 100,
+      "cyclomatic": 111,
+      "functions": [
+        {
+          "name": "_terminal_goal_status",
+          "kind": "function",
+          "line": 26,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "observe",
+          "kind": "method",
+          "line": 55,
+          "cognitive": 17,
+          "cyclomatic": 15
+        },
+        {
+          "name": "activate_turn_routing",
+          "kind": "method",
+          "line": 89,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait_for_start",
+          "kind": "method",
+          "line": 94,
+          "cognitive": 6,
+          "cyclomatic": 5
+        },
+        {
+          "name": "fail",
+          "kind": "method",
+          "line": 107,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_notification",
+          "kind": "method",
+          "line": 113,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "finish",
+          "kind": "method",
+          "line": 119,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "is_finished",
+          "kind": "method",
+          "line": 126,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "begin_interrupt",
+          "kind": "method",
+          "line": 130,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "confirm_interrupt",
+          "kind": "method",
+          "line": 137,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel_interrupt",
+          "kind": "method",
+          "line": 143,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "explicit_interrupt",
+          "kind": "method",
+          "line": 148,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "active_turn",
+          "kind": "method",
+          "line": 154,
+          "cognitive": 11,
+          "cyclomatic": 8
+        },
+        {
+          "name": "current_turn",
+          "kind": "method",
+          "line": 168,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "resolve_active_turn",
+          "kind": "method",
+          "line": 173,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "turn_for_interrupt",
+          "kind": "method",
+          "line": 180,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "wake_notification_reader",
+          "kind": "method",
+          "line": 191,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_logical_notification",
+          "kind": "function",
+          "line": 196,
+          "cognitive": 9,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_logical_completion",
+          "kind": "function",
+          "line": 225,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "process",
+          "kind": "method",
+          "line": 260,
+          "cognitive": 29,
+          "cyclomatic": 23
+        },
+        {
+          "name": "_completion",
+          "kind": "method",
+          "line": 328,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__post_init__",
+          "kind": "method",
+          "line": 359,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__iter__",
+          "kind": "method",
+          "line": 362,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__next__",
+          "kind": "method",
+          "line": 365,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_finish",
+          "kind": "method",
+          "line": 387,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 395,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__post_init__",
+          "kind": "method",
+          "line": 411,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aiter__",
+          "kind": "method",
+          "line": 414,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__anext__",
+          "kind": "method",
+          "line": 417,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_finish",
+          "kind": "method",
+          "line": 439,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "aclose",
+          "kind": "method",
+          "line": 447,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_initialize_metadata.py",
+      "cognitive": 24,
+      "cyclomatic": 24,
+      "functions": [
+        {
+          "name": "_split_user_agent",
+          "kind": "function",
+          "line": 6,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "validate_initialize_metadata",
+          "kind": "function",
+          "line": 19,
+          "cognitive": 19,
+          "cyclomatic": 18
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_inputs.py",
+      "cognitive": 13,
+      "cyclomatic": 15,
+      "functions": [
+        {
+          "name": "_to_wire_item",
+          "kind": "function",
+          "line": 70,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_to_wire_input",
+          "kind": "function",
+          "line": 84,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_normalize_run_input",
+          "kind": "function",
+          "line": 90,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_to_wire_turn_input",
+          "kind": "function",
+          "line": 96,
+          "cognitive": 4,
+          "cyclomatic": 4
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_login.py",
+      "cognitive": 4,
+      "cyclomatic": 17,
+      "functions": [
+        {
+          "name": "_ensure_initialized",
+          "kind": "method",
+          "line": 24,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "start_chatgpt_login",
+          "kind": "function",
+          "line": 29,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "async_start_chatgpt_login",
+          "kind": "function",
+          "line": 46,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "start_device_code_login",
+          "kind": "function",
+          "line": 63,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "async_start_device_code_login",
+          "kind": "function",
+          "line": 81,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 109,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 113,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 127,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 131,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 144,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 149,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 164,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 169,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_message_router.py",
+      "cognitive": 80,
+      "cyclomatic": 91,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 35,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next",
+          "kind": "method",
+          "line": 46,
+          "cognitive": 6,
+          "cyclomatic": 6
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 62,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 78,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "create_response_waiter",
+          "kind": "method",
+          "line": 92,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "discard_response_waiter",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_global_notification",
+          "kind": "method",
+          "line": 106,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "register_login",
+          "kind": "method",
+          "line": 114,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "unregister_login",
+          "kind": "method",
+          "line": 126,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_login_notification",
+          "kind": "method",
+          "line": 132,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "pending_turn",
+          "kind": "method",
+          "line": 145,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "prepare_turn",
+          "kind": "method",
+          "line": 159,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "subscribe_turn",
+          "kind": "method",
+          "line": 177,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_release_turn",
+          "kind": "method",
+          "line": 184,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_prune_turn_events",
+          "kind": "method",
+          "line": 196,
+          "cognitive": 6,
+          "cyclomatic": 7
+        },
+        {
+          "name": "register_turn",
+          "kind": "method",
+          "line": 208,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "unregister_turn",
+          "kind": "method",
+          "line": 214,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "next_turn_notification",
+          "kind": "method",
+          "line": 220,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "register_goal",
+          "kind": "method",
+          "line": 228,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "reserve_goal",
+          "kind": "method",
+          "line": 234,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_register_goal",
+          "kind": "method",
+          "line": 238,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "unregister_goal",
+          "kind": "method",
+          "line": 247,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "has_goal",
+          "kind": "method",
+          "line": 253,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "route_response",
+          "kind": "method",
+          "line": 258,
+          "cognitive": 5,
+          "cyclomatic": 4
+        },
+        {
+          "name": "route_notification",
+          "kind": "method",
+          "line": 283,
+          "cognitive": 18,
+          "cyclomatic": 12
+        },
+        {
+          "name": "fail_all",
+          "kind": "method",
+          "line": 324,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_notification_turn_id",
+          "kind": "method",
+          "line": 353,
+          "cognitive": 8,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_notification_thread_id",
+          "kind": "method",
+          "line": 368,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_notification_login_id",
+          "kind": "method",
+          "line": 377,
+          "cognitive": 5,
+          "cyclomatic": 5
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_run.py",
+      "cognitive": 35,
+      "cyclomatic": 31,
+      "functions": [
+        {
+          "name": "_agent_message_item_from_thread_item",
+          "kind": "function",
+          "line": 36,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_final_assistant_response_from_items",
+          "kind": "function",
+          "line": 45,
+          "cognitive": 8,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_raise_for_failed_turn",
+          "kind": "function",
+          "line": 60,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_collect_turn_result",
+          "kind": "function",
+          "line": 68,
+          "cognitive": 11,
+          "cyclomatic": 9
+        },
+        {
+          "name": "_collect_async_turn_result",
+          "kind": "function",
+          "line": 102,
+          "cognitive": 11,
+          "cyclomatic": 9
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_runtime_requirements.py",
+      "cognitive": 10,
+      "cyclomatic": 10,
+      "functions": [
+        {
+          "name": "require_runtime_version",
+          "kind": "function",
+          "line": 16,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "fields",
+          "kind": "method",
+          "line": 40,
+          "cognitive": 6,
+          "cyclomatic": 5
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_sandbox.py",
+      "cognitive": 6,
+      "cyclomatic": 14,
+      "functions": [
+        {
+          "name": "_require_sandbox",
+          "kind": "function",
+          "line": 29,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_sandbox_mode",
+          "kind": "function",
+          "line": 36,
+          "cognitive": 2,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_sandbox_policy",
+          "kind": "function",
+          "line": 53,
+          "cognitive": 2,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_assert_never_sandbox",
+          "kind": "function",
+          "line": 76,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/_version.py",
+      "cognitive": 4,
+      "cyclomatic": 6,
+      "functions": [
+        {
+          "name": "package_version",
+          "kind": "function",
+          "line": 11,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_source_tree_project_version",
+          "kind": "function",
+          "line": 22,
+          "cognitive": 2,
+          "cyclomatic": 3
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/api.py",
+      "cognitive": 37,
+      "cyclomatic": 76,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 85,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__enter__",
+          "kind": "method",
+          "line": 94,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__exit__",
+          "kind": "method",
+          "line": 97,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "metadata",
+          "kind": "method",
+          "line": 101,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 104,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "login_api_key",
+          "kind": "method",
+          "line": 107,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "login_chatgpt",
+          "kind": "method",
+          "line": 118,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "login_chatgpt_device_code",
+          "kind": "method",
+          "line": 122,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account",
+          "kind": "method",
+          "line": 126,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "logout",
+          "kind": "method",
+          "line": 130,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_start",
+          "kind": "method",
+          "line": 135,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_list",
+          "kind": "method",
+          "line": 175,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_resume",
+          "kind": "method",
+          "line": 206,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "thread_fork",
+          "kind": "method",
+          "line": 246,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "thread_archive",
+          "kind": "method",
+          "line": 288,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_unarchive",
+          "kind": "method",
+          "line": 292,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "models",
+          "kind": "method",
+          "line": 299,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 316,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aenter__",
+          "kind": "method",
+          "line": 322,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aexit__",
+          "kind": "method",
+          "line": 326,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_ensure_initialized",
+          "kind": "method",
+          "line": 329,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "metadata",
+          "kind": "method",
+          "line": 347,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 355,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "login_api_key",
+          "kind": "method",
+          "line": 360,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "login_chatgpt",
+          "kind": "method",
+          "line": 372,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "login_chatgpt_device_code",
+          "kind": "method",
+          "line": 377,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account",
+          "kind": "method",
+          "line": 382,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "logout",
+          "kind": "method",
+          "line": 387,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_start",
+          "kind": "method",
+          "line": 393,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_list",
+          "kind": "method",
+          "line": 434,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_resume",
+          "kind": "method",
+          "line": 466,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "thread_fork",
+          "kind": "method",
+          "line": 507,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "thread_archive",
+          "kind": "method",
+          "line": 550,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_unarchive",
+          "kind": "method",
+          "line": 555,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "models",
+          "kind": "method",
+          "line": 563,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 581,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "turn",
+          "kind": "method",
+          "line": 618,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "read",
+          "kind": "method",
+          "line": 668,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set_name",
+          "kind": "method",
+          "line": 672,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "compact",
+          "kind": "method",
+          "line": 675,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 687,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "turn",
+          "kind": "method",
+          "line": 724,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "read",
+          "kind": "method",
+          "line": 775,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set_name",
+          "kind": "method",
+          "line": 780,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "compact",
+          "kind": "method",
+          "line": 784,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 798,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__post_init__",
+          "kind": "method",
+          "line": 807,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "steer",
+          "kind": "method",
+          "line": 810,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "interrupt",
+          "kind": "method",
+          "line": 818,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stream",
+          "kind": "method",
+          "line": 822,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 837,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 855,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__post_init__",
+          "kind": "method",
+          "line": 862,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "steer",
+          "kind": "method",
+          "line": 865,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "interrupt",
+          "kind": "method",
+          "line": 874,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stream",
+          "kind": "method",
+          "line": 879,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 895,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/async_client.py",
+      "cognitive": 18,
+      "cyclomatic": 60,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 60,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aenter__",
+          "kind": "method",
+          "line": 64,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aexit__",
+          "kind": "method",
+          "line": 69,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_call_sync",
+          "kind": "method",
+          "line": 73,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_next_from_iterator",
+          "kind": "method",
+          "line": 84,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "start",
+          "kind": "method",
+          "line": 93,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 97,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "initialize",
+          "kind": "method",
+          "line": 101,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_subscribe_turn_notifications",
+          "kind": "method",
+          "line": 105,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "register_turn_notifications",
+          "kind": "method",
+          "line": 108,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "register_login_notifications",
+          "kind": "method",
+          "line": 112,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "unregister_login_notifications",
+          "kind": "method",
+          "line": 116,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "unregister_turn_notifications",
+          "kind": "method",
+          "line": 120,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "register_goal_operation",
+          "kind": "method",
+          "line": 124,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "unregister_goal_operation",
+          "kind": "method",
+          "line": 128,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "request",
+          "kind": "method",
+          "line": 132,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_login_start",
+          "kind": "method",
+          "line": 147,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_login_cancel",
+          "kind": "method",
+          "line": 154,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_read",
+          "kind": "method",
+          "line": 158,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_logout",
+          "kind": "method",
+          "line": 165,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_start",
+          "kind": "method",
+          "line": 169,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_resume",
+          "kind": "method",
+          "line": 175,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_list",
+          "kind": "method",
+          "line": 183,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_read",
+          "kind": "method",
+          "line": 189,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_fork",
+          "kind": "method",
+          "line": 193,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_archive",
+          "kind": "method",
+          "line": 201,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_unarchive",
+          "kind": "method",
+          "line": 205,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_set_name",
+          "kind": "method",
+          "line": 209,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_compact",
+          "kind": "method",
+          "line": 213,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_goal_clear",
+          "kind": "method",
+          "line": 217,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_goal_set",
+          "kind": "method",
+          "line": 221,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "pause_goal",
+          "kind": "method",
+          "line": 236,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel_goal_operation",
+          "kind": "method",
+          "line": 240,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "start_goal_operation",
+          "kind": "method",
+          "line": 244,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "start_operation",
+              "kind": "function",
+              "line": 252,
+              "cognitive": 1,
+              "cyclomatic": 2
+            },
+            {
+              "name": "cleanup_cancelled_start",
+              "kind": "function",
+              "line": 268,
+              "cognitive": 1,
+              "cyclomatic": 2,
+              "children": [
+                {
+                  "name": "stop_cancelled_goal",
+                  "kind": "function",
+                  "line": 276,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "turn_start",
+          "kind": "method",
+          "line": 292,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_start_turn",
+          "kind": "method",
+          "line": 301,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "discard_cancelled_result",
+              "kind": "function",
+              "line": 315,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "turn_interrupt",
+          "kind": "method",
+          "line": 328,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "turn_steer",
+          "kind": "method",
+          "line": 332,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "model_list",
+          "kind": "method",
+          "line": 346,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "request_with_retry_on_overload",
+          "kind": "method",
+          "line": 350,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_notification",
+          "kind": "method",
+          "line": 371,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_login_notification",
+          "kind": "method",
+          "line": 375,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_turn_notification",
+          "kind": "method",
+          "line": 379,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_goal_notification",
+          "kind": "method",
+          "line": 383,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait_for_login_completed",
+          "kind": "method",
+          "line": 387,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait_for_turn_completed",
+          "kind": "method",
+          "line": 394,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stream_text",
+          "kind": "method",
+          "line": 398,
+          "cognitive": 4,
+          "cyclomatic": 3
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/client.py",
+      "cognitive": 153,
+      "cyclomatic": 198,
+      "functions": [
+        {
+          "name": "_active_turn_id_from_error",
+          "kind": "function",
+          "line": 79,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_params_dict",
+          "kind": "function",
+          "line": 84,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_installed_codex_path",
+          "kind": "function",
+          "line": 113,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_installed_codex_path_dirs",
+          "kind": "function",
+          "line": 126,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_prepend_path_dirs",
+          "kind": "function",
+          "line": 136,
+          "cognitive": 13,
+          "cyclomatic": 10
+        },
+        {
+          "name": "_path_env_key",
+          "kind": "function",
+          "line": 155,
+          "cognitive": 6,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_default_codex_bin_resolver_ops",
+          "kind": "function",
+          "line": 171,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 174,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "resolve_codex_bin",
+          "kind": "function",
+          "line": 178,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_resolve_codex_bin",
+          "kind": "function",
+          "line": 191,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 217,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "__enter__",
+          "kind": "method",
+          "line": 235,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__exit__",
+          "kind": "method",
+          "line": 239,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "start",
+          "kind": "method",
+          "line": 242,
+          "cognitive": 9,
+          "cyclomatic": 7
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 283,
+          "cognitive": 8,
+          "cyclomatic": 8
+        },
+        {
+          "name": "initialize",
+          "kind": "method",
+          "line": 304,
+          "cognitive": 6,
+          "cyclomatic": 7
+        },
+        {
+          "name": "request",
+          "kind": "method",
+          "line": 327,
+          "cognitive": 17,
+          "cyclomatic": 10
+        },
+        {
+          "name": "_request_raw",
+          "kind": "method",
+          "line": 368,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "notify",
+          "kind": "method",
+          "line": 387,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "next_notification",
+          "kind": "method",
+          "line": 394,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "register_login_notifications",
+          "kind": "method",
+          "line": 398,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "unregister_login_notifications",
+          "kind": "method",
+          "line": 402,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_login_notification",
+          "kind": "method",
+          "line": 406,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_subscribe_turn_notifications",
+          "kind": "method",
+          "line": 410,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "register_turn_notifications",
+          "kind": "method",
+          "line": 413,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "unregister_turn_notifications",
+          "kind": "method",
+          "line": 417,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_turn_notification",
+          "kind": "method",
+          "line": 421,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "register_goal_operation",
+          "kind": "method",
+          "line": 425,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "reserve_goal_operation",
+          "kind": "method",
+          "line": 429,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "unregister_goal_operation",
+          "kind": "method",
+          "line": 433,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "next_goal_notification",
+          "kind": "method",
+          "line": 437,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_login_start",
+          "kind": "method",
+          "line": 441,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "account_login_cancel",
+          "kind": "method",
+          "line": 458,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_read",
+          "kind": "method",
+          "line": 465,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "account_logout",
+          "kind": "method",
+          "line": 475,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_start",
+          "kind": "method",
+          "line": 478,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_resume",
+          "kind": "method",
+          "line": 485,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_list",
+          "kind": "method",
+          "line": 493,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_read",
+          "kind": "method",
+          "line": 498,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_fork",
+          "kind": "method",
+          "line": 505,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_archive",
+          "kind": "method",
+          "line": 513,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_unarchive",
+          "kind": "method",
+          "line": 520,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_set_name",
+          "kind": "method",
+          "line": 527,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_compact",
+          "kind": "method",
+          "line": 534,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_goal_clear",
+          "kind": "method",
+          "line": 541,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "thread_goal_set",
+          "kind": "method",
+          "line": 549,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "pause_goal",
+          "kind": "method",
+          "line": 568,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel_goal_operation",
+          "kind": "method",
+          "line": 572,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_interrupt_goal_operation",
+          "kind": "method",
+          "line": 580,
+          "cognitive": 11,
+          "cyclomatic": 9
+        },
+        {
+          "name": "start_goal_operation",
+          "kind": "method",
+          "line": 599,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_start_goal_operation",
+          "kind": "method",
+          "line": 608,
+          "cognitive": 8,
+          "cyclomatic": 8
+        },
+        {
+          "name": "turn_start",
+          "kind": "method",
+          "line": 650,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_start_turn",
+          "kind": "method",
+          "line": 659,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_thread_start_lock",
+          "kind": "method",
+          "line": 685,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "turn_interrupt",
+          "kind": "method",
+          "line": 701,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "turn_steer",
+          "kind": "method",
+          "line": 708,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "model_list",
+          "kind": "method",
+          "line": 724,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "request_with_retry_on_overload",
+          "kind": "method",
+          "line": 731,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 742,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "wait_for_turn_completed",
+          "kind": "method",
+          "line": 748,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "wait_for_login_completed",
+          "kind": "method",
+          "line": 763,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "stream_text",
+          "kind": "method",
+          "line": 781,
+          "cognitive": 7,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_coerce_notification",
+          "kind": "method",
+          "line": 810,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_normalize_input_items",
+          "kind": "method",
+          "line": 823,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_default_approval_handler",
+          "kind": "method",
+          "line": 833,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_start_stderr_drain_thread",
+          "kind": "method",
+          "line": 841,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "_drain",
+              "kind": "function",
+              "line": 845,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "_start_reader_thread",
+          "kind": "method",
+          "line": 855,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_reader_loop",
+          "kind": "method",
+          "line": 863,
+          "cognitive": 11,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_stderr_tail",
+          "kind": "method",
+          "line": 883,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_handle_server_request",
+          "kind": "method",
+          "line": 886,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_write_message",
+          "kind": "method",
+          "line": 896,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_read_message",
+          "kind": "method",
+          "line": 903,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "default_codex_home",
+          "kind": "function",
+          "line": 923,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/errors.py",
+      "cognitive": 44,
+      "cyclomatic": 32,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 13,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_contains_retry_limit_text",
+          "kind": "function",
+          "line": 56,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_is_server_overloaded",
+          "kind": "function",
+          "line": 61,
+          "cognitive": 27,
+          "cyclomatic": 16
+        },
+        {
+          "name": "map_jsonrpc_error",
+          "kind": "function",
+          "line": 86,
+          "cognitive": 13,
+          "cyclomatic": 10
+        },
+        {
+          "name": "is_retryable_error",
+          "kind": "function",
+          "line": 112,
+          "cognitive": 2,
+          "cyclomatic": 3
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/models.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/retry.py",
+      "cognitive": 13,
+      "cyclomatic": 7,
+      "functions": [
+        {
+          "name": "retry_on_overload",
+          "kind": "function",
+          "line": 12,
+          "cognitive": 13,
+          "cyclomatic": 7
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/python/src/openai_codex/types.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    }
+  ],
+  "summary": {
+    "file_count": 18,
+    "function_count": 283,
+    "parse_error_count": 0,
+    "parse_error_file_count": 0,
+    "cognitive": {
+      "sum": 546,
+      "max": 29,
+      "median": 0,
+      "p90": 6,
+      "p95": 9
+    },
+    "cyclomatic": {
+      "sum": 700,
+      "max": 23,
+      "median": 1,
+      "p90": 6,
+      "p95": 8
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-12",
+  "cccc_version": "1.8.0",
+  "cccc_flags": [
+    "--no-config",
+    "--no-cache",
+    "--no-ignore",
+    "--pretty"
+  ],
+  "repositories": [
+    {
+      "name": "codex",
+      "url": "https://github.com/openai/codex",
+      "requested_ref": "main",
+      "commit": "9f3d25588b3f0bdf452d4eda919f2c2365a89bba",
+      "worktree": "references/codex",
+      "sparse": true
+    },
+    {
+      "name": "claude-python",
+      "url": "https://github.com/anthropics/claude-agent-sdk-python",
+      "requested_ref": "main",
+      "commit": "b6e9d12fe1cc98dde988ab7b7713c1feeee50c6c",
+      "worktree": "references/claude-python",
+      "sparse": false
+    },
+    {
+      "name": "claude-typescript",
+      "url": "https://github.com/anthropics/claude-agent-sdk-typescript",
+      "requested_ref": "main",
+      "commit": "85d8f8e0772199ec7965a0c2e874ac88343f2a01",
+      "worktree": "references/claude-typescript",
+      "sparse": false
+    },
+    {
+      "name": "pi-durable-1.0",
+      "url": "https://github.com/earendil-works/pi",
+      "requested_ref": "v1.0.0",
+      "commit": "a13d35a742c6ef8462812a28fbe1d8c8b7431c32",
+      "worktree": "references/pi-durable-1.0",
+      "sparse": true
+    }
+  ],
+  "published_claude_typescript": {
+    "package": "@anthropic-ai/claude-agent-sdk",
+    "version": "0.3.296",
+    "integrity": "sha512-Y+cZ2BT8X94mQ9GJOVyIqhjC/nWGvwozUVLjdkzX7aSt+zuo5tgk7Hdv9V7tEUQ9fKnEuiL6moYNWDeHqCD4Lw==",
+    "archive_sha256": "e966be99b6f047d56165e2ec03822f17a49beebd48ac8efb91dab1e48bcf69a7",
+    "scope": "Published declarations inspected; minified runtime not scored or executed"
+  },
+  "scopes": {
+    "codex-python": [
+      "references/codex/sdk/python/src/openai_codex",
+      "--exclude generated/**"
+    ],
+    "codex-typescript": [
+      "references/codex/sdk/typescript/src"
+    ],
+    "claude-python": [
+      "references/claude-python/src/claude_agent_sdk"
+    ],
+    "claude-typescript-examples": [
+      "references/claude-typescript/examples/session-stores",
+      "--exclude **/test/**",
+      "--exclude **/shared/**"
+    ],
+    "pi-durable-1.0": [
+      "references/pi-durable-1.0/packages/durable/src",
+      "--exclude testing/**"
+    ],
+    "pi-storage-session": [
+      "references/pi-durable-1.0/packages/durable/src/storage",
+      "references/pi-durable-1.0/packages/durable/src/session"
+    ],
+    "claude-store-resume": [
+      "references/claude-python/src/claude_agent_sdk/_internal/session_store.py",
+      "references/claude-python/src/claude_agent_sdk/_internal/session_resume.py",
+      "references/claude-python/src/claude_agent_sdk/_internal/session_mutations.py",
+      "references/claude-python/src/claude_agent_sdk/_internal/transcript_mirror_batcher.py"
+    ]
+  },
+  "verification": "Static source/declaration inspection only. No SDK/harness execution, package installation, or backend tests."
+}

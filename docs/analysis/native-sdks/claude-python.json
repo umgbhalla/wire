@@ -1,0 +1,2481 @@
+{
+  "files": [
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/__init__.py",
+      "cognitive": 81,
+      "cyclomatic": 62,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "function",
+          "line": 236,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "function",
+          "line": 255,
+          "cognitive": 4,
+          "cyclomatic": 3
+        },
+        {
+          "name": "tool",
+          "kind": "function",
+          "line": 277,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "decorator",
+              "kind": "function",
+              "line": 350,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_python_type_to_json_schema",
+          "kind": "function",
+          "line": 364,
+          "cognitive": 34,
+          "cyclomatic": 21
+        },
+        {
+          "name": "_typeddict_to_json_schema",
+          "kind": "function",
+          "line": 418,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_build_input_schema",
+          "kind": "function",
+          "line": 436,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_build_meta",
+          "kind": "function",
+          "line": 459,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_tool_error_result",
+          "kind": "function",
+          "line": 471,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_convert_tool_content",
+          "kind": "function",
+          "line": 477,
+          "cognitive": 22,
+          "cyclomatic": 11
+        },
+        {
+          "name": "create_sdk_mcp_server",
+          "kind": "function",
+          "line": 517,
+          "cognitive": 4,
+          "cyclomatic": 5,
+          "children": [
+            {
+              "name": "run_tool",
+              "kind": "function",
+              "line": 620,
+              "cognitive": 3,
+              "cyclomatic": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_cli_version.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_errors.py",
+      "cognitive": 20,
+      "cyclomatic": 20,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 17,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 28,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_normalize_result_errors",
+          "kind": "function",
+          "line": 42,
+          "cognitive": 6,
+          "cyclomatic": 6
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 92,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 123,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 132,
+          "cognitive": 1,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/__init__.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/_mcp_compat.py",
+      "cognitive": 10,
+      "cyclomatic": 18,
+      "functions": [
+        {
+          "name": "parse_jsonrpc",
+          "kind": "function",
+          "line": 56,
+          "cognitive": 5,
+          "cyclomatic": 5,
+          "children": [
+            {
+              "name": "unanswered",
+              "kind": "function",
+              "line": 72,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "dump_jsonrpc",
+          "kind": "function",
+          "line": 83,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "can_cancel_requests",
+          "kind": "function",
+          "line": 98,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "build_tool_server",
+          "kind": "function",
+          "line": 112,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "on_list_tools",
+              "kind": "function",
+              "line": 123,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "on_call_tool",
+              "kind": "function",
+              "line": 126,
+              "cognitive": 1,
+              "cyclomatic": 2
+            },
+            {
+              "name": "list_tools",
+              "kind": "function",
+              "line": 137,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "call_tool",
+              "kind": "function",
+              "line": 140,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/_task_compat.py",
+      "cognitive": 19,
+      "cyclomatic": 31,
+      "functions": [
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 39,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "done",
+          "kind": "method",
+          "line": 43,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "add_done_callback",
+          "kind": "method",
+          "line": 47,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 51,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 64,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 67,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "done",
+          "kind": "method",
+          "line": 70,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "add_done_callback",
+          "kind": "method",
+          "line": 73,
+          "cognitive": 1,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 74,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 76,
+          "cognitive": 4,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 85,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 97,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 105,
+          "cognitive": 1,
+          "cyclomatic": 1
+        },
+        {
+          "name": "done",
+          "kind": "method",
+          "line": 109,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "add_done_callback",
+          "kind": "method",
+          "line": 112,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_mark_done",
+          "kind": "method",
+          "line": 118,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 137,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "spawn_detached",
+          "kind": "function",
+          "line": 147,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "_runner",
+              "kind": "function",
+              "line": 165,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/client.py",
+      "cognitive": 39,
+      "cyclomatic": 30,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 31,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "process_query",
+          "kind": "method",
+          "line": 34,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_process_query_inner",
+          "kind": "method",
+          "line": 73,
+          "cognitive": 36,
+          "cyclomatic": 24,
+          "children": [
+            {
+              "name": "_on_mirror_error",
+              "kind": "function",
+              "line": 160,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/message_parser.py",
+      "cognitive": 52,
+      "cyclomatic": 47,
+      "functions": [
+        {
+          "name": "_parse_origin",
+          "kind": "function",
+          "line": 37,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "parse_message",
+          "kind": "function",
+          "line": 50,
+          "cognitive": 50,
+          "cyclomatic": 44
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/query.py",
+      "cognitive": 214,
+      "cyclomatic": 179,
+      "functions": [
+        {
+          "name": "run_end_ceiling_ms",
+          "kind": "function",
+          "line": 63,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_error_result_text",
+          "kind": "function",
+          "line": 85,
+          "cognitive": 6,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_convert_hook_output_for_cli",
+          "kind": "function",
+          "line": 113,
+          "cognitive": 5,
+          "cyclomatic": 4
+        },
+        {
+          "name": "stamp_user_message",
+          "kind": "function",
+          "line": 132,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 157,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "set_transcript_mirror_batcher",
+          "kind": "method",
+          "line": 278,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "report_mirror_error",
+          "kind": "method",
+          "line": 287,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "initialize",
+          "kind": "method",
+          "line": 309,
+          "cognitive": 27,
+          "cyclomatic": 14
+        },
+        {
+          "name": "start",
+          "kind": "method",
+          "line": 365,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "spawn_task",
+          "kind": "method",
+          "line": 370,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_spawn_control_request_handler",
+          "kind": "method",
+          "line": 377,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "_done",
+              "kind": "function",
+              "line": 383,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_read_messages",
+          "kind": "method",
+          "line": 388,
+          "cognitive": 74,
+          "cyclomatic": 35
+        },
+        {
+          "name": "_handle_control_request",
+          "kind": "method",
+          "line": 577,
+          "cognitive": 35,
+          "cyclomatic": 19
+        },
+        {
+          "name": "_send_control_request",
+          "kind": "method",
+          "line": 706,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_handle_sdk_mcp_request",
+          "kind": "method",
+          "line": 753,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "get_mcp_status",
+          "kind": "method",
+          "line": 784,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get_context_usage",
+          "kind": "method",
+          "line": 788,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "interrupt",
+          "kind": "method",
+          "line": 792,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set_permission_mode",
+          "kind": "method",
+          "line": 796,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set_model",
+          "kind": "method",
+          "line": 805,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "rewind_files",
+          "kind": "method",
+          "line": 814,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "reconnect_mcp_server",
+          "kind": "method",
+          "line": 829,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "toggle_mcp_server",
+          "kind": "method",
+          "line": 842,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stop_task",
+          "kind": "method",
+          "line": 857,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_track_task_lifecycle",
+          "kind": "method",
+          "line": 870,
+          "cognitive": 10,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_on_session_state",
+          "kind": "method",
+          "line": 924,
+          "cognitive": 5,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_maybe_end_run",
+          "kind": "method",
+          "line": 940,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_end_run",
+          "kind": "method",
+          "line": 959,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_reopen_run",
+          "kind": "method",
+          "line": 964,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_arm_run_end_ceiling",
+          "kind": "method",
+          "line": 975,
+          "cognitive": 2,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_rearm_run_end_ceiling_between_turns",
+          "kind": "method",
+          "line": 1001,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_end_run_at_ceiling",
+          "kind": "method",
+          "line": 1011,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_clear_run_end_ceiling",
+          "kind": "method",
+          "line": 1035,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_has_bidirectional_needs",
+          "kind": "method",
+          "line": 1041,
+          "cognitive": 1,
+          "cyclomatic": 3
+        },
+        {
+          "name": "wait_for_result_and_end_input",
+          "kind": "method",
+          "line": 1053,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "stream_input",
+          "kind": "method",
+          "line": 1093,
+          "cognitive": 7,
+          "cyclomatic": 6
+        },
+        {
+          "name": "receive_messages",
+          "kind": "method",
+          "line": 1135,
+          "cognitive": 7,
+          "cyclomatic": 5
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 1149,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_close_impl",
+          "kind": "method",
+          "line": 1184,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "close_receive_stream",
+          "kind": "method",
+          "line": 1209,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aiter__",
+          "kind": "method",
+          "line": 1220,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__anext__",
+          "kind": "method",
+          "line": 1224,
+          "cognitive": 1,
+          "cyclomatic": 2
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/sdk_mcp_bridge.py",
+      "cognitive": 48,
+      "cyclomatic": 53,
+      "functions": [
+        {
+          "name": "send",
+          "kind": "method",
+          "line": 58,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "aclose",
+          "kind": "method",
+          "line": 59,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 72,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "resolve",
+          "kind": "method",
+          "line": 84,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 91,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 114,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 127,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "finished",
+          "kind": "method",
+          "line": 130,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_run",
+          "kind": "method",
+          "line": 139,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_fail_pending",
+          "kind": "method",
+          "line": 176,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_serve",
+          "kind": "method",
+          "line": 181,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_deliver",
+          "kind": "method",
+          "line": 198,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_answer_server_request",
+          "kind": "method",
+          "line": 217,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_respond",
+          "kind": "method",
+          "line": 247,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "submit",
+          "kind": "method",
+          "line": 258,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "aclose",
+          "kind": "method",
+          "line": 289,
+          "cognitive": 12,
+          "cyclomatic": 6
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 346,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "handle",
+          "kind": "method",
+          "line": 352,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "aclose",
+          "kind": "method",
+          "line": 379,
+          "cognitive": 2,
+          "cyclomatic": 2
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_import.py",
+      "cognitive": 21,
+      "cyclomatic": 20,
+      "functions": [
+        {
+          "name": "import_session_to_store",
+          "kind": "function",
+          "line": 29,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_append_jsonl_file_in_batches",
+          "kind": "function",
+          "line": 121,
+          "cognitive": 7,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_collect_jsonl_files",
+          "kind": "function",
+          "line": 148,
+          "cognitive": 7,
+          "cyclomatic": 6,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 155,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_mutations.py",
+      "cognitive": 162,
+      "cyclomatic": 135,
+      "functions": [
+        {
+          "name": "rename_session",
+          "kind": "function",
+          "line": 53,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "tag_session",
+          "kind": "function",
+          "line": 112,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "delete_session",
+          "kind": "function",
+          "line": 182,
+          "cognitive": 7,
+          "cyclomatic": 6
+        },
+        {
+          "name": "fork_session",
+          "kind": "function",
+          "line": 240,
+          "cognitive": 7,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "_derive_title",
+              "kind": "function",
+              "line": 312,
+              "cognitive": 1,
+              "cyclomatic": 6
+            }
+          ]
+        },
+        {
+          "name": "_build_fork_lines",
+          "kind": "function",
+          "line": 348,
+          "cognitive": 37,
+          "cyclomatic": 24
+        },
+        {
+          "name": "_find_session_file",
+          "kind": "function",
+          "line": 492,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_find_session_file_with_dir",
+          "kind": "function",
+          "line": 504,
+          "cognitive": 24,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "_try_dir",
+              "kind": "function",
+              "line": 515,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "_derive_title_from_entries",
+          "kind": "function",
+          "line": 562,
+          "cognitive": 13,
+          "cyclomatic": 11
+        },
+        {
+          "name": "_parse_fork_transcript",
+          "kind": "function",
+          "line": 590,
+          "cognitive": 12,
+          "cyclomatic": 10
+        },
+        {
+          "name": "_append_to_session",
+          "kind": "function",
+          "line": 624,
+          "cognitive": 19,
+          "cyclomatic": 12
+        },
+        {
+          "name": "_try_append",
+          "kind": "function",
+          "line": 678,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_sanitize_unicode",
+          "kind": "function",
+          "line": 737,
+          "cognitive": 8,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_iso_now",
+          "kind": "function",
+          "line": 765,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "rename_session_via_store",
+          "kind": "function",
+          "line": 769,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "tag_session_via_store",
+          "kind": "function",
+          "line": 810,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "delete_session_via_store",
+          "kind": "function",
+          "line": 851,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "fork_session_via_store",
+          "kind": "function",
+          "line": 885,
+          "cognitive": 11,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 954,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_resume.py",
+      "cognitive": 97,
+      "cyclomatic": 96,
+      "functions": [
+        {
+          "name": "apply_materialized_options",
+          "kind": "function",
+          "line": 77,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "build_mirror_batcher",
+          "kind": "function",
+          "line": 97,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "materialize_resume_session",
+          "kind": "function",
+          "line": 130,
+          "cognitive": 10,
+          "cyclomatic": 9,
+          "children": [
+            {
+              "name": "cleanup",
+              "kind": "function",
+              "line": 193,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_rmtree_with_retry",
+          "kind": "function",
+          "line": 221,
+          "cognitive": 10,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_load_candidate",
+          "kind": "function",
+          "line": 254,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_resolve_continue_candidate",
+          "kind": "function",
+          "line": 268,
+          "cognitive": 9,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 287,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_with_timeout",
+          "kind": "function",
+          "line": 301,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_write_jsonl",
+          "kind": "function",
+          "line": 315,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_copy_auth_files",
+          "kind": "function",
+          "line": 326,
+          "cognitive": 11,
+          "cyclomatic": 12
+        },
+        {
+          "name": "_strip_settings_for_resume",
+          "kind": "function",
+          "line": 395,
+          "cognitive": 9,
+          "cyclomatic": 9
+        },
+        {
+          "name": "_write_redacted_credentials",
+          "kind": "function",
+          "line": 431,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_read_if_present",
+          "kind": "function",
+          "line": 457,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_copy_if_present",
+          "kind": "function",
+          "line": 476,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_read_keychain_credentials",
+          "kind": "function",
+          "line": 495,
+          "cognitive": 6,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_materialize_subkeys",
+          "kind": "function",
+          "line": 532,
+          "cognitive": 16,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_is_safe_subpath",
+          "kind": "function",
+          "line": 591,
+          "cognitive": 8,
+          "cyclomatic": 9
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_store.py",
+      "cognitive": 42,
+      "cyclomatic": 40,
+      "functions": [
+        {
+          "name": "_key_to_string",
+          "kind": "function",
+          "line": 27,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 43,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_next_mtime",
+          "kind": "method",
+          "line": 49,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "append",
+          "kind": "method",
+          "line": 64,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "load",
+          "kind": "method",
+          "line": 83,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "list_sessions",
+          "kind": "method",
+          "line": 87,
+          "cognitive": 6,
+          "cyclomatic": 4
+        },
+        {
+          "name": "list_session_summaries",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 105,
+          "cognitive": 10,
+          "cyclomatic": 5
+        },
+        {
+          "name": "list_subkeys",
+          "kind": "method",
+          "line": 119,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "get_entries",
+          "kind": "method",
+          "line": 127,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "size",
+          "kind": "method",
+          "line": 132,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "clear",
+          "kind": "method",
+          "line": 141,
+          "cognitive": 3,
+          "cyclomatic": 1
+        },
+        {
+          "name": "file_path_to_session_key",
+          "kind": "function",
+          "line": 149,
+          "cognitive": 9,
+          "cyclomatic": 10
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_store_validation.py",
+      "cognitive": 5,
+      "cyclomatic": 8,
+      "functions": [
+        {
+          "name": "_store_implements",
+          "kind": "function",
+          "line": 8,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "validate_session_store_options",
+          "kind": "function",
+          "line": 18,
+          "cognitive": 4,
+          "cyclomatic": 6
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_summary.py",
+      "cognitive": 70,
+      "cyclomatic": 56,
+      "functions": [
+        {
+          "name": "_iso_to_epoch_ms",
+          "kind": "function",
+          "line": 39,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_entry_text_blocks",
+          "kind": "function",
+          "line": 51,
+          "cognitive": 9,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_fold_first_prompt",
+          "kind": "function",
+          "line": 71,
+          "cognitive": 23,
+          "cyclomatic": 16
+        },
+        {
+          "name": "fold_session_summary",
+          "kind": "function",
+          "line": 112,
+          "cognitive": 26,
+          "cyclomatic": 14
+        },
+        {
+          "name": "summary_entry_to_sdk_info",
+          "kind": "function",
+          "line": 192,
+          "cognitive": 9,
+          "cyclomatic": 14
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/sessions.py",
+      "cognitive": 492,
+      "cyclomatic": 375,
+      "functions": [
+        {
+          "name": "_validate_uuid",
+          "kind": "function",
+          "line": 69,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_simple_hash",
+          "kind": "function",
+          "line": 81,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_sanitize_path",
+          "kind": "function",
+          "line": 104,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_get_claude_config_home_dir",
+          "kind": "function",
+          "line": 122,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_get_projects_dir",
+          "kind": "function",
+          "line": 130,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_get_project_dir",
+          "kind": "function",
+          "line": 144,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_canonicalize_path",
+          "kind": "function",
+          "line": 148,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_find_project_dir",
+          "kind": "function",
+          "line": 157,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_unescape_json_string",
+          "kind": "function",
+          "line": 192,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_extract_json_string_field",
+          "kind": "function",
+          "line": 205,
+          "cognitive": 11,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_extract_last_json_string_field",
+          "kind": "function",
+          "line": 229,
+          "cognitive": 17,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_extract_first_prompt_from_head",
+          "kind": "function",
+          "line": 259,
+          "cognitive": 52,
+          "cyclomatic": 27
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 346,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_read_session_lite",
+          "kind": "function",
+          "line": 353,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_get_worktree_paths",
+          "kind": "function",
+          "line": 388,
+          "cognitive": 6,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_parse_session_info_from_lite",
+          "kind": "function",
+          "line": 421,
+          "cognitive": 19,
+          "cyclomatic": 24
+        },
+        {
+          "name": "_read_sessions_from_dir",
+          "kind": "function",
+          "line": 519,
+          "cognitive": 10,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_deduplicate_by_session_id",
+          "kind": "function",
+          "line": 553,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_apply_sort_limit_offset",
+          "kind": "function",
+          "line": 565,
+          "cognitive": 3,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 571,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_list_sessions_for_project",
+          "kind": "function",
+          "line": 579,
+          "cognitive": 31,
+          "cyclomatic": 20,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 616,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_list_all_sessions",
+          "kind": "function",
+          "line": 663,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "list_sessions",
+          "kind": "function",
+          "line": 680,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "get_session_info",
+          "kind": "function",
+          "line": 739,
+          "cognitive": 28,
+          "cyclomatic": 15
+        },
+        {
+          "name": "_try_read_session_file",
+          "kind": "function",
+          "line": 836,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_read_session_file",
+          "kind": "function",
+          "line": 844,
+          "cognitive": 24,
+          "cyclomatic": 12
+        },
+        {
+          "name": "_parse_transcript_entries",
+          "kind": "function",
+          "line": 897,
+          "cognitive": 12,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_build_conversation_chain",
+          "kind": "function",
+          "line": 931,
+          "cognitive": 32,
+          "cyclomatic": 22,
+          "children": [
+            {
+              "name": "_pick_best",
+              "kind": "function",
+              "line": 994,
+              "cognitive": 3,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "_is_visible_message",
+          "kind": "function",
+          "line": 1023,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_to_session_message",
+          "kind": "function",
+          "line": 1039,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "get_session_messages",
+          "kind": "function",
+          "line": 1059,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_entries_to_session_messages",
+          "kind": "function",
+          "line": 1113,
+          "cognitive": 7,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_resolve_session_file_path",
+          "kind": "function",
+          "line": 1139,
+          "cognitive": 26,
+          "cyclomatic": 13,
+          "children": [
+            {
+              "name": "_stat_candidate",
+              "kind": "function",
+              "line": 1149,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "_resolve_subagents_dir",
+          "kind": "function",
+          "line": 1199,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_collect_agent_files",
+          "kind": "function",
+          "line": 1215,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "_walk",
+              "kind": "function",
+              "line": 1225,
+              "cognitive": 7,
+              "cyclomatic": 7,
+              "children": [
+                {
+                  "name": "<lambda>",
+                  "kind": "lambda",
+                  "line": 1227,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "_build_subagent_chain",
+          "kind": "function",
+          "line": 1246,
+          "cognitive": 11,
+          "cyclomatic": 9
+        },
+        {
+          "name": "list_subagents",
+          "kind": "function",
+          "line": 1286,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "get_subagent_messages",
+          "kind": "function",
+          "line": 1328,
+          "cognitive": 10,
+          "cyclomatic": 10
+        },
+        {
+          "name": "_agent_metadata_sidecar_path",
+          "kind": "function",
+          "line": 1415,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_read_agent_metadata_sidecar",
+          "kind": "function",
+          "line": 1426,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_split_agent_metadata",
+          "kind": "function",
+          "line": 1444,
+          "cognitive": 5,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_parent_ids_from_agent_metadata",
+          "kind": "function",
+          "line": 1464,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_entries_to_subagent_messages",
+          "kind": "function",
+          "line": 1482,
+          "cognitive": 6,
+          "cyclomatic": 6
+        },
+        {
+          "name": "project_key_for_directory",
+          "kind": "function",
+          "line": 1513,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_entries_to_jsonl",
+          "kind": "function",
+          "line": 1526,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "_type_first",
+              "kind": "function",
+              "line": 1535,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "_jsonl_to_lite",
+          "kind": "function",
+          "line": 1546,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_mtime_from_jsonl_tail",
+          "kind": "function",
+          "line": 1564,
+          "cognitive": 10,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_filter_transcript_entries",
+          "kind": "function",
+          "line": 1586,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_load_store_entries_as_jsonl",
+          "kind": "function",
+          "line": 1604,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_derive_infos_via_load",
+          "kind": "function",
+          "line": 1619,
+          "cognitive": 8,
+          "cyclomatic": 6,
+          "children": [
+            {
+              "name": "_bounded_load",
+              "kind": "function",
+              "line": 1636,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "list_sessions_from_store",
+          "kind": "function",
+          "line": 1672,
+          "cognitive": 59,
+          "cyclomatic": 25,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 1785,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "get_session_info_from_store",
+          "kind": "function",
+          "line": 1829,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "get_session_messages_from_store",
+          "kind": "function",
+          "line": 1859,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "list_subagents_from_store",
+          "kind": "function",
+          "line": 1896,
+          "cognitive": 10,
+          "cyclomatic": 7
+        },
+        {
+          "name": "get_subagent_messages_from_store",
+          "kind": "function",
+          "line": 1945,
+          "cognitive": 13,
+          "cyclomatic": 10
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/transcript_mirror_batcher.py",
+      "cognitive": 30,
+      "cyclomatic": 22,
+      "functions": [
+        {
+          "name": "enqueue",
+          "kind": "method",
+          "line": 77,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "flush",
+          "kind": "method",
+          "line": 96,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_drain",
+          "kind": "method",
+          "line": 113,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_do_flush",
+          "kind": "method",
+          "line": 149,
+          "cognitive": 22,
+          "cyclomatic": 11
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/transport/__init__.py",
+      "cognitive": 0,
+      "cyclomatic": 6,
+      "functions": [
+        {
+          "name": "connect",
+          "kind": "method",
+          "line": 22,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "write",
+          "kind": "method",
+          "line": 31,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "read_messages",
+          "kind": "method",
+          "line": 40,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 49,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "is_ready",
+          "kind": "method",
+          "line": 73,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "end_input",
+          "kind": "method",
+          "line": 82,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/transport/subprocess_cli.py",
+      "cognitive": 282,
+      "cyclomatic": 226,
+      "functions": [
+        {
+          "name": "_kill_active_children",
+          "kind": "function",
+          "line": 61,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_reject_non_list_skills",
+          "kind": "function",
+          "line": 82,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_validate_skill_name",
+          "kind": "function",
+          "line": 98,
+          "cognitive": 11,
+          "cyclomatic": 12
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 173,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "push",
+          "kind": "method",
+          "line": 181,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "flush",
+          "kind": "method",
+          "line": 192,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_parse_stdout_line",
+          "kind": "function",
+          "line": 199,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 227,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_find_cli",
+          "kind": "method",
+          "line": 255,
+          "cognitive": 16,
+          "cyclomatic": 13
+        },
+        {
+          "name": "_find_bundled_cli",
+          "kind": "method",
+          "line": 341,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_is_windows_native_exe",
+          "kind": "method",
+          "line": 357,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_is_windows_batch_cli",
+          "kind": "method",
+          "line": 367,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_reject_windows_batch_cli",
+          "kind": "method",
+          "line": 415,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_reject_windows_cmd_metacharacters",
+          "kind": "method",
+          "line": 451,
+          "cognitive": 6,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_build_settings_value",
+          "kind": "method",
+          "line": 473,
+          "cognitive": 21,
+          "cyclomatic": 12
+        },
+        {
+          "name": "_apply_skills_defaults",
+          "kind": "method",
+          "line": 527,
+          "cognitive": 12,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_build_command",
+          "kind": "method",
+          "line": 570,
+          "cognitive": 95,
+          "cyclomatic": 61
+        },
+        {
+          "name": "connect",
+          "kind": "method",
+          "line": 797,
+          "cognitive": 32,
+          "cyclomatic": 25
+        },
+        {
+          "name": "_handle_stderr",
+          "kind": "method",
+          "line": 917,
+          "cognitive": 8,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "emit",
+              "kind": "function",
+              "line": 922,
+              "cognitive": 4,
+              "cyclomatic": 4
+            }
+          ]
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 962,
+          "cognitive": 13,
+          "cyclomatic": 11
+        },
+        {
+          "name": "write",
+          "kind": "method",
+          "line": 1063,
+          "cognitive": 6,
+          "cyclomatic": 7
+        },
+        {
+          "name": "end_input",
+          "kind": "method",
+          "line": 1089,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "read_messages",
+          "kind": "method",
+          "line": 1097,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_read_messages_impl",
+          "kind": "method",
+          "line": 1101,
+          "cognitive": 15,
+          "cyclomatic": 13,
+          "children": [
+            {
+              "name": "guard",
+              "kind": "function",
+              "line": 1110,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "_check_claude_version",
+          "kind": "method",
+          "line": 1164,
+          "cognitive": 22,
+          "cyclomatic": 12
+        },
+        {
+          "name": "is_ready",
+          "kind": "method",
+          "line": 1226,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_version.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/client.py",
+      "cognitive": 77,
+      "cyclomatic": 70,
+      "functions": [
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 67,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "connect",
+          "kind": "method",
+          "line": 93,
+          "cognitive": 3,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "_empty_stream",
+              "kind": "function",
+              "line": 102,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_connect_inner",
+          "kind": "method",
+          "line": 141,
+          "cognitive": 34,
+          "cyclomatic": 23,
+          "children": [
+            {
+              "name": "_on_mirror_error",
+              "kind": "function",
+              "line": 229,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "receive_messages",
+          "kind": "method",
+          "line": 260,
+          "cognitive": 5,
+          "cyclomatic": 4
+        },
+        {
+          "name": "query",
+          "kind": "method",
+          "line": 272,
+          "cognitive": 9,
+          "cyclomatic": 6
+        },
+        {
+          "name": "interrupt",
+          "kind": "method",
+          "line": 308,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "set_permission_mode",
+          "kind": "method",
+          "line": 314,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "set_model",
+          "kind": "method",
+          "line": 341,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "rewind_files",
+          "kind": "method",
+          "line": 364,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "reconnect_mcp_server",
+          "kind": "method",
+          "line": 395,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "toggle_mcp_server",
+          "kind": "method",
+          "line": 417,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "stop_task",
+          "kind": "method",
+          "line": 443,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "get_mcp_status",
+          "kind": "method",
+          "line": 471,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "get_context_usage",
+          "kind": "method",
+          "line": 504,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "get_server_info",
+          "kind": "method",
+          "line": 540,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "receive_response",
+          "kind": "method",
+          "line": 566,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "disconnect",
+          "kind": "method",
+          "line": 607,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "__aenter__",
+          "kind": "method",
+          "line": 623,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "__aexit__",
+          "kind": "method",
+          "line": 628,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/query.py",
+      "cognitive": 2,
+      "cyclomatic": 3,
+      "functions": [
+        {
+          "name": "query",
+          "kind": "function",
+          "line": 11,
+          "cognitive": 2,
+          "cyclomatic": 3
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/testing/__init__.py",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/testing/session_store_conformance.py",
+      "cognitive": 40,
+      "cyclomatic": 30,
+      "functions": [
+        {
+          "name": "_has_optional",
+          "kind": "function",
+          "line": 38,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "run_session_store_conformance",
+          "kind": "function",
+          "line": 54,
+          "cognitive": 37,
+          "cyclomatic": 24,
+          "children": [
+            {
+              "name": "fresh",
+              "kind": "function",
+              "line": 69,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "_e",
+          "kind": "function",
+          "line": 321,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/types.py",
+      "cognitive": 51,
+      "cyclomatic": 47,
+      "functions": [
+        {
+          "name": "to_dict",
+          "kind": "method",
+          "line": 163,
+          "cognitive": 15,
+          "cyclomatic": 10
+        },
+        {
+          "name": "from_dict",
+          "kind": "method",
+          "line": 200,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "append",
+          "kind": "method",
+          "line": 1981,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "load",
+          "kind": "method",
+          "line": 2003,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list_sessions",
+          "kind": "method",
+          "line": 2027,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list_session_summaries",
+          "kind": "method",
+          "line": 2039,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 2063,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list_subkeys",
+          "kind": "method",
+          "line": 2076,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_whole_tool_allowed",
+          "kind": "function",
+          "line": 2194,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_get_can_use_tool_shadowed_warning",
+          "kind": "function",
+          "line": 2213,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_warn_if_can_use_tool_shadowed",
+          "kind": "function",
+          "line": 2246,
+          "cognitive": 4,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_configure_can_use_tool",
+          "kind": "function",
+          "line": 2276,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_hooks_to_internal_format",
+          "kind": "function",
+          "line": 2302,
+          "cognitive": 13,
+          "cyclomatic": 7
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "file_count": 26,
+    "function_count": 317,
+    "parse_error_count": 0,
+    "parse_error_file_count": 0,
+    "cognitive": {
+      "sum": 1842,
+      "max": 95,
+      "median": 2,
+      "p90": 15,
+      "p95": 27
+    },
+    "cyclomatic": {
+      "sum": 1566,
+      "max": 61,
+      "median": 3,
+      "p90": 11,
+      "p95": 16
+    }
+  }
+}

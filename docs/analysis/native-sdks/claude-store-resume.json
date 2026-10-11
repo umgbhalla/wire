@@ -1,0 +1,454 @@
+{
+  "files": [
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_mutations.py",
+      "cognitive": 162,
+      "cyclomatic": 135,
+      "functions": [
+        {
+          "name": "rename_session",
+          "kind": "function",
+          "line": 53,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "tag_session",
+          "kind": "function",
+          "line": 112,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "delete_session",
+          "kind": "function",
+          "line": 182,
+          "cognitive": 7,
+          "cyclomatic": 6
+        },
+        {
+          "name": "fork_session",
+          "kind": "function",
+          "line": 240,
+          "cognitive": 7,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "_derive_title",
+              "kind": "function",
+              "line": 312,
+              "cognitive": 1,
+              "cyclomatic": 6
+            }
+          ]
+        },
+        {
+          "name": "_build_fork_lines",
+          "kind": "function",
+          "line": 348,
+          "cognitive": 37,
+          "cyclomatic": 24
+        },
+        {
+          "name": "_find_session_file",
+          "kind": "function",
+          "line": 492,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_find_session_file_with_dir",
+          "kind": "function",
+          "line": 504,
+          "cognitive": 24,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "_try_dir",
+              "kind": "function",
+              "line": 515,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "_derive_title_from_entries",
+          "kind": "function",
+          "line": 562,
+          "cognitive": 13,
+          "cyclomatic": 11
+        },
+        {
+          "name": "_parse_fork_transcript",
+          "kind": "function",
+          "line": 590,
+          "cognitive": 12,
+          "cyclomatic": 10
+        },
+        {
+          "name": "_append_to_session",
+          "kind": "function",
+          "line": 624,
+          "cognitive": 19,
+          "cyclomatic": 12
+        },
+        {
+          "name": "_try_append",
+          "kind": "function",
+          "line": 678,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_sanitize_unicode",
+          "kind": "function",
+          "line": 737,
+          "cognitive": 8,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_iso_now",
+          "kind": "function",
+          "line": 765,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "rename_session_via_store",
+          "kind": "function",
+          "line": 769,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "tag_session_via_store",
+          "kind": "function",
+          "line": 810,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "delete_session_via_store",
+          "kind": "function",
+          "line": 851,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "fork_session_via_store",
+          "kind": "function",
+          "line": 885,
+          "cognitive": 11,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 954,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_resume.py",
+      "cognitive": 97,
+      "cyclomatic": 96,
+      "functions": [
+        {
+          "name": "apply_materialized_options",
+          "kind": "function",
+          "line": 77,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "build_mirror_batcher",
+          "kind": "function",
+          "line": 97,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "materialize_resume_session",
+          "kind": "function",
+          "line": 130,
+          "cognitive": 10,
+          "cyclomatic": 9,
+          "children": [
+            {
+              "name": "cleanup",
+              "kind": "function",
+              "line": 193,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_rmtree_with_retry",
+          "kind": "function",
+          "line": 221,
+          "cognitive": 10,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_load_candidate",
+          "kind": "function",
+          "line": 254,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_resolve_continue_candidate",
+          "kind": "function",
+          "line": 268,
+          "cognitive": 9,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "<lambda>",
+              "kind": "lambda",
+              "line": 287,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "_with_timeout",
+          "kind": "function",
+          "line": 301,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "_write_jsonl",
+          "kind": "function",
+          "line": 315,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_copy_auth_files",
+          "kind": "function",
+          "line": 326,
+          "cognitive": 11,
+          "cyclomatic": 12
+        },
+        {
+          "name": "_strip_settings_for_resume",
+          "kind": "function",
+          "line": 395,
+          "cognitive": 9,
+          "cyclomatic": 9
+        },
+        {
+          "name": "_write_redacted_credentials",
+          "kind": "function",
+          "line": 431,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "_read_if_present",
+          "kind": "function",
+          "line": 457,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_copy_if_present",
+          "kind": "function",
+          "line": 476,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "_read_keychain_credentials",
+          "kind": "function",
+          "line": 495,
+          "cognitive": 6,
+          "cyclomatic": 7
+        },
+        {
+          "name": "_materialize_subkeys",
+          "kind": "function",
+          "line": 532,
+          "cognitive": 16,
+          "cyclomatic": 8
+        },
+        {
+          "name": "_is_safe_subpath",
+          "kind": "function",
+          "line": 591,
+          "cognitive": 8,
+          "cyclomatic": 9
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/session_store.py",
+      "cognitive": 42,
+      "cyclomatic": 40,
+      "functions": [
+        {
+          "name": "_key_to_string",
+          "kind": "function",
+          "line": 27,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "__init__",
+          "kind": "method",
+          "line": 43,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "_next_mtime",
+          "kind": "method",
+          "line": 49,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "append",
+          "kind": "method",
+          "line": 64,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "load",
+          "kind": "method",
+          "line": 83,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "list_sessions",
+          "kind": "method",
+          "line": 87,
+          "cognitive": 6,
+          "cyclomatic": 4
+        },
+        {
+          "name": "list_session_summaries",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 105,
+          "cognitive": 10,
+          "cyclomatic": 5
+        },
+        {
+          "name": "list_subkeys",
+          "kind": "method",
+          "line": 119,
+          "cognitive": 3,
+          "cyclomatic": 3
+        },
+        {
+          "name": "get_entries",
+          "kind": "method",
+          "line": 127,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "size",
+          "kind": "method",
+          "line": 132,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "clear",
+          "kind": "method",
+          "line": 141,
+          "cognitive": 3,
+          "cyclomatic": 1
+        },
+        {
+          "name": "file_path_to_session_key",
+          "kind": "function",
+          "line": 149,
+          "cognitive": 9,
+          "cyclomatic": 10
+        }
+      ]
+    },
+    {
+      "path": "references/claude-python/src/claude_agent_sdk/_internal/transcript_mirror_batcher.py",
+      "cognitive": 30,
+      "cyclomatic": 22,
+      "functions": [
+        {
+          "name": "enqueue",
+          "kind": "method",
+          "line": 77,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "flush",
+          "kind": "method",
+          "line": 96,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "_drain",
+          "kind": "method",
+          "line": 113,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "_do_flush",
+          "kind": "method",
+          "line": 149,
+          "cognitive": 22,
+          "cyclomatic": 11
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "file_count": 4,
+    "function_count": 56,
+    "parse_error_count": 0,
+    "parse_error_file_count": 0,
+    "cognitive": {
+      "sum": 331,
+      "max": 37,
+      "median": 3,
+      "p90": 13,
+      "p95": 22
+    },
+    "cyclomatic": {
+      "sum": 293,
+      "max": 24,
+      "median": 4,
+      "p90": 11,
+      "p95": 12
+    }
+  }
+}

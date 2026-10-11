@@ -1,0 +1,388 @@
+{
+  "files": [
+    {
+      "path": "references/claude-typescript/examples/session-stores/postgres/demo.ts",
+      "cognitive": 10,
+      "cyclomatic": 7,
+      "functions": [
+        {
+          "name": "run",
+          "kind": "function",
+          "line": 27,
+          "cognitive": 9,
+          "cyclomatic": 6
+        }
+      ]
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/postgres/src/PostgresSessionStore.ts",
+      "cognitive": 8,
+      "cyclomatic": 18,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 23,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "ensureSchema",
+          "kind": "method",
+          "line": 33,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "append",
+          "kind": "method",
+          "line": 50,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 59,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "load",
+          "kind": "method",
+          "line": 69,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 77,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "listSessions",
+          "kind": "method",
+          "line": 80,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 90,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 96,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "listSubkeys",
+          "kind": "method",
+          "line": 111,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 120,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/postgres/src/index.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/redis/demo.ts",
+      "cognitive": 10,
+      "cyclomatic": 7,
+      "functions": [
+        {
+          "name": "run",
+          "kind": "function",
+          "line": 20,
+          "cognitive": 9,
+          "cyclomatic": 6
+        }
+      ]
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/redis/src/RedisSessionStore.ts",
+      "cognitive": 12,
+      "cyclomatic": 21,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 40,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "entryKey",
+          "kind": "method",
+          "line": 47,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "subkeysKey",
+          "kind": "method",
+          "line": 54,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "sessionsKey",
+          "kind": "method",
+          "line": 59,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "append",
+          "kind": "method",
+          "line": 63,
+          "cognitive": 3,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 66,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "load",
+          "kind": "method",
+          "line": 78,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "listSessions",
+          "kind": "method",
+          "line": 92,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 108,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 124,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "listSubkeys",
+          "kind": "method",
+          "line": 133,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/redis/src/index.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/s3/demo.ts",
+      "cognitive": 11,
+      "cyclomatic": 8,
+      "functions": [
+        {
+          "name": "run",
+          "kind": "function",
+          "line": 35,
+          "cognitive": 9,
+          "cyclomatic": 6
+        }
+      ]
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/s3/src/S3SessionStore.ts",
+      "cognitive": 105,
+      "cyclomatic": 61,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 39,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "keyPrefix",
+          "kind": "method",
+          "line": 47,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "projectPrefix",
+          "kind": "method",
+          "line": 56,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "nextPartName",
+          "kind": "method",
+          "line": 64,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "append",
+          "kind": "method",
+          "line": 72,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 77,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "load",
+          "kind": "method",
+          "line": 89,
+          "cognitive": 30,
+          "cyclomatic": 14,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 132,
+              "cognitive": 0,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "listSessions",
+          "kind": "method",
+          "line": 163,
+          "cognitive": 28,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 208,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 214,
+          "cognitive": 22,
+          "cyclomatic": 11,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 251,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "listSubkeys",
+          "kind": "method",
+          "line": 259,
+          "cognitive": 21,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 301,
+              "cognitive": 0,
+              "cyclomatic": 1,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 302,
+                  "cognitive": 1,
+                  "cyclomatic": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "references/claude-typescript/examples/session-stores/s3/src/index.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    }
+  ],
+  "summary": {
+    "file_count": 9,
+    "function_count": 40,
+    "parse_error_count": 0,
+    "parse_error_file_count": 0,
+    "cognitive": {
+      "sum": 152,
+      "max": 30,
+      "median": 1,
+      "p90": 9,
+      "p95": 22
+    },
+    "cyclomatic": {
+      "sum": 118,
+      "max": 14,
+      "median": 2,
+      "p90": 6,
+      "p95": 11
+    }
+  }
+}

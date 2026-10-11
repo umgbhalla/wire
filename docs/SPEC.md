@@ -4,6 +4,18 @@ Specification only. Types below use language-neutral algebraic notation. They ar
 not executable code or a claim of native protocol parity. The future codebase is
 Rust; Python is a thin PyO3 projection of the same semantics.
 
+## Study motivation
+
+Preserve the native behavior the user values in Codex and Claude. Study the
+observed spiralling in Pi/opencode through intent, context lineage, activity and
+evidence before considering fixes. This is a user-observed hypothesis, not a
+measured behavior conclusion. Types describe observable relationships, not the
+model's hidden understanding.
+
+The [first SDK composition study](research/COMPOSITION.md) distinguishes transcript
+archives from execution-state stores. It adds questions, not adopted guarantees.
+Pi Durable 1.0 is the durability reference; coding-agent RPC is a separate layer.
+
 ## Identity
 
 | Type | Meaning | Distinct from |
@@ -124,7 +136,8 @@ Reconstruction = { projection, covered_positions, revision, coverage }
 ```
 
 Complete means complete for a stated source scope and boundary, not all hidden
-agent state. Gaps include missing sequences, inaccessible history, omitted content,
+agent state. Gaps require the source's continuity semantics: Pi commit sequences permit gaps,
+so missing integers alone do not prove lost records. Other gaps include inaccessible history, omitted content,
 redaction and missing artifact bytes.
 
 Reconcile history and stream output by stable message/part/tool identities. Same

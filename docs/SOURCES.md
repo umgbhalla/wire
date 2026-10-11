@@ -14,7 +14,7 @@ sets and platform checks remain future work.
 | wire-python | PyO3, pyo3-async-runtimes, maturin tooling | Bindings, asyncio bridge, packaging; lifetime/cancellation need tests |
 | wire-codex | Pinned Codex app-server | Native JSON-RPC; no assumed official Rust SDK crate |
 | wire-claude | Pinned Claude Code CLI | Stream-json/native control; compare official Agent SDK semantics |
-| wire-pi | Pinned Pi RPC runtime | JSONL process integration; prompt acceptance is not settlement |
+| wire-pi | Pi Durable 1.0 + Chord + pi-ai | Durable TypeScript API; cross-language boundary undecided. Coding-agent RPC is a separate layer |
 
 Primary sources:
 
@@ -40,3 +40,10 @@ retries or follow-up work; `agent_settled` is the documented settlement boundary
 Official Python SDKs are comparison sources, not proposed Rust dependencies.
 Mindwire's adapters supply additional reference evidence. None of these sources
 establish exact native context restoration from an arbitrary saved transcript.
+
+## Source worktrees and composition
+
+The [worktree inventory](research/WORKTREES.md) pins Codex, both Claude SDK
+repositories, and Pi Durable v1.0.0. The [composition study](research/COMPOSITION.md)
+compares their actual types and control/storage boundaries. Do not treat the
+earlier coding-agent RPC note as the Pi Durable API.

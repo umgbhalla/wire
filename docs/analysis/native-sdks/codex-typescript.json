@@ -1,0 +1,338 @@
+{
+  "files": [
+    {
+      "path": "references/codex/sdk/typescript/src/codex.ts",
+      "cognitive": 0,
+      "cyclomatic": 3,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 15,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "startThread",
+          "kind": "method",
+          "line": 25,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "resumeThread",
+          "kind": "method",
+          "line": 36,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/codexOptions.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/events.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/exec.ts",
+      "cognitive": 124,
+      "cyclomatic": 119,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 75,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 94,
+          "cognitive": 50,
+          "cyclomatic": 44,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 209,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 225,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 231,
+              "cognitive": 0,
+              "cyclomatic": 1,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 232,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "serializeConfigOverrides",
+          "kind": "function",
+          "line": 268,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "flattenConfigOverrides",
+          "kind": "function",
+          "line": 274,
+          "cognitive": 19,
+          "cyclomatic": 12
+        },
+        {
+          "name": "toTomlValue",
+          "kind": "function",
+          "line": 314,
+          "cognitive": 20,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 325,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "formatTomlKey",
+          "kind": "function",
+          "line": 348,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "isPlainObject",
+          "kind": "function",
+          "line": 352,
+          "cognitive": 1,
+          "cyclomatic": 3
+        },
+        {
+          "name": "findCodexPath",
+          "kind": "function",
+          "line": 356,
+          "cognitive": 12,
+          "cyclomatic": 16
+        },
+        {
+          "name": "resolveNativePackage",
+          "kind": "function",
+          "line": 434,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "existingDirs",
+          "kind": "function",
+          "line": 459,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "prependPathDirs",
+          "kind": "function",
+          "line": 463,
+          "cognitive": 8,
+          "cyclomatic": 6,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 479,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "pathEnvKey",
+          "kind": "function",
+          "line": 483,
+          "cognitive": 3,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 488,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "isFile",
+          "kind": "function",
+          "line": 492,
+          "cognitive": 2,
+          "cyclomatic": 2
+        },
+        {
+          "name": "isDirectory",
+          "kind": "function",
+          "line": 500,
+          "cognitive": 2,
+          "cyclomatic": 2
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/index.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/items.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/outputSchemaFile.ts",
+      "cognitive": 5,
+      "cyclomatic": 10,
+      "functions": [
+        {
+          "name": "createOutputSchemaFile",
+          "kind": "function",
+          "line": 10,
+          "cognitive": 3,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "cleanup",
+              "kind": "arrow",
+              "line": 12,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "cleanup",
+              "kind": "arrow",
+              "line": 21,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "isJsonObject",
+          "kind": "function",
+          "line": 38,
+          "cognitive": 1,
+          "cyclomatic": 3
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/thread.ts",
+      "cognitive": 20,
+      "cyclomatic": 31,
+      "functions": [
+        {
+          "name": "id",
+          "kind": "getter",
+          "line": 48,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 53,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "runStreamed",
+          "kind": "method",
+          "line": 66,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "runStreamedInternal",
+          "kind": "method",
+          "line": 70,
+          "cognitive": 6,
+          "cyclomatic": 16
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 119,
+          "cognitive": 9,
+          "cyclomatic": 7
+        },
+        {
+          "name": "normalizeInput",
+          "kind": "function",
+          "line": 145,
+          "cognitive": 5,
+          "cyclomatic": 5
+        }
+      ]
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/threadOptions.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "references/codex/sdk/typescript/src/turnOptions.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    }
+  ],
+  "summary": {
+    "file_count": 10,
+    "function_count": 34,
+    "parse_error_count": 0,
+    "parse_error_file_count": 0,
+    "cognitive": {
+      "sum": 149,
+      "max": 50,
+      "median": 1,
+      "p90": 12,
+      "p95": 20
+    },
+    "cyclomatic": {
+      "sum": 163,
+      "max": 44,
+      "median": 2,
+      "p90": 12,
+      "p95": 16
+    }
+  }
+}
