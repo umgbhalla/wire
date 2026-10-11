@@ -1,0 +1,9 @@
+{
+  "upstream_url": "https://github.com/oblien/mindwire",
+  "upstream_commit": "aa26e91f0dba38d6942415cfeaedd2e296eb060b",
+  "cccc_version": "1.8.0",
+  "cccc_binary_sha256": "ec184795f96521da4a90df48e0129aafef7006eec65672323444db53b2296176",
+  "cccc_archive_sha256": "a238b8f121291f81df68359c111a9ba49cf48106fbedda63f4a48f1adc092408",
+  "date": "2026-10-12",
+  "scope": "Historical Mindwire reference analysis; current Wire work is specification only, language-neutral algebra, future Rust core and PyO3 bindings"
+}

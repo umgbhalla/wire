@@ -1,0 +1,2614 @@
+{
+  "files": [
+    {
+      "path": "vendor/mindwire/packages/sdk/src/binary-cache.ts",
+      "cognitive": 8,
+      "cyclomatic": 12,
+      "functions": [
+        {
+          "name": "binaryCacheDirectory",
+          "kind": "function",
+          "line": 5,
+          "cognitive": 5,
+          "cyclomatic": 5
+        },
+        {
+          "name": "executableChecksum",
+          "kind": "function",
+          "line": 14,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "verifyReleaseBytes",
+          "kind": "function",
+          "line": 19,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "cachedExecutable",
+          "kind": "function",
+          "line": 25,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "cacheExecutable",
+          "kind": "function",
+          "line": 34,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/client.ts",
+      "cognitive": 39,
+      "cyclomatic": 127,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 148,
+          "cognitive": 1,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "resolveBase",
+              "kind": "arrow",
+              "line": 159,
+              "cognitive": 0,
+              "cyclomatic": 1,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 162,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ensure",
+          "kind": "method",
+          "line": 192,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "withAgent",
+          "kind": "method",
+          "line": 197,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "agentParam",
+          "kind": "method",
+          "line": 217,
+          "cognitive": 2,
+          "cyclomatic": 4
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 229,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 233,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "health",
+          "kind": "method",
+          "line": 240,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stats",
+          "kind": "method",
+          "line": 250,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "catalog",
+          "kind": "method",
+          "line": 255,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "agent",
+          "kind": "method",
+          "line": 260,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "software",
+          "kind": "method",
+          "line": 265,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "models",
+          "kind": "method",
+          "line": 276,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "commands",
+          "kind": "method",
+          "line": 281,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "doctor",
+          "kind": "method",
+          "line": 288,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setup",
+          "kind": "method",
+          "line": 295,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "update",
+          "kind": "method",
+          "line": 300,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setupStatus",
+          "kind": "method",
+          "line": 305,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "getConfig",
+          "kind": "method",
+          "line": 312,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setConfig",
+          "kind": "method",
+          "line": 319,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "chats",
+          "kind": "method",
+          "line": 332,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "renameChat",
+          "kind": "method",
+          "line": 341,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "uploadAttachmentChunk",
+          "kind": "method",
+          "line": 348,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "uploadAttachment",
+          "kind": "method",
+          "line": 353,
+          "cognitive": 14,
+          "cyclomatic": 17,
+          "children": [
+            {
+              "name": "hash",
+              "kind": "arrow",
+              "line": 357,
+              "cognitive": 1,
+              "cyclomatic": 3,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 362,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "deleteChat",
+          "kind": "method",
+          "line": 394,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "forkChat",
+          "kind": "method",
+          "line": 405,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "messages",
+          "kind": "method",
+          "line": 415,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "messagePage",
+          "kind": "method",
+          "line": 432,
+          "cognitive": 5,
+          "cyclomatic": 7
+        },
+        {
+          "name": "latestRun",
+          "kind": "method",
+          "line": 450,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "turn",
+          "kind": "method",
+          "line": 469,
+          "cognitive": 7,
+          "cyclomatic": 8
+        },
+        {
+          "name": "resolve",
+          "kind": "method",
+          "line": 524,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 539,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "compact",
+          "kind": "method",
+          "line": 553,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "getNotifyConfig",
+          "kind": "method",
+          "line": 568,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setNotifyConfig",
+          "kind": "method",
+          "line": 573,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "notifications",
+          "kind": "method",
+          "line": 578,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "processes",
+          "kind": "method",
+          "line": 594,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 609,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "methods",
+          "kind": "method",
+          "line": 612,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "begin",
+          "kind": "method",
+          "line": 619,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "step",
+          "kind": "method",
+          "line": 627,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "poll",
+          "kind": "method",
+          "line": 635,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 640,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "status",
+          "kind": "method",
+          "line": 645,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "logout",
+          "kind": "method",
+          "line": 652,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 670,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "query",
+          "kind": "method",
+          "line": 672,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "memory",
+          "kind": "method",
+          "line": 681,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setMemory",
+          "kind": "method",
+          "line": 688,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "deleteMemory",
+          "kind": "method",
+          "line": 703,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 714,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get",
+          "kind": "method",
+          "line": 721,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set",
+          "kind": "method",
+          "line": 728,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 743,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "subagents",
+          "kind": "method",
+          "line": 755,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "subagent",
+          "kind": "method",
+          "line": 762,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setSubagent",
+          "kind": "method",
+          "line": 769,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "deleteSubagent",
+          "kind": "method",
+          "line": 784,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 806,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "query",
+          "kind": "method",
+          "line": 808,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 817,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get",
+          "kind": "method",
+          "line": 826,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set",
+          "kind": "method",
+          "line": 833,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 845,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 868,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "query",
+          "kind": "method",
+          "line": 870,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 879,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get",
+          "kind": "method",
+          "line": 888,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "set",
+          "kind": "method",
+          "line": 901,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 913,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 934,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "channels",
+          "kind": "method",
+          "line": 937,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "createChannel",
+          "kind": "method",
+          "line": 942,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setChannel",
+          "kind": "method",
+          "line": 950,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "deleteChannel",
+          "kind": "method",
+          "line": 957,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "testChannel",
+          "kind": "method",
+          "line": 965,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "rules",
+          "kind": "method",
+          "line": 973,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "createRule",
+          "kind": "method",
+          "line": 978,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setRule",
+          "kind": "method",
+          "line": 983,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "deleteRule",
+          "kind": "method",
+          "line": 990,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/computer.ts",
+      "cognitive": 6,
+      "cyclomatic": 27,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 65,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "info",
+          "kind": "method",
+          "line": 66,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "discovery",
+          "kind": "method",
+          "line": 67,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "configureDiscovery",
+          "kind": "method",
+          "line": 68,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "directoryEnrollment",
+          "kind": "method",
+          "line": 71,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setRoutes",
+          "kind": "method",
+          "line": 74,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "updateStatus",
+          "kind": "method",
+          "line": 77,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "requestUpdate",
+          "kind": "method",
+          "line": 80,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "invite",
+          "kind": "method",
+          "line": 83,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "pairing",
+          "kind": "method",
+          "line": 86,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "closeUnusedPairing",
+          "kind": "method",
+          "line": 89,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "completePairing",
+          "kind": "method",
+          "line": 92,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "decide",
+          "kind": "method",
+          "line": 95,
+          "cognitive": 3,
+          "cyclomatic": 5
+        },
+        {
+          "name": "devices",
+          "kind": "method",
+          "line": 101,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "revoke",
+          "kind": "method",
+          "line": 102,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "forwards",
+          "kind": "method",
+          "line": 103,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "forward",
+          "kind": "method",
+          "line": 106,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "closeForward",
+          "kind": "method",
+          "line": 109,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "computerPairingQRData",
+          "kind": "function",
+          "line": 117,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "computerPairingURI",
+          "kind": "function",
+          "line": 122,
+          "cognitive": 3,
+          "cyclomatic": 4
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/conversations.ts",
+      "cognitive": 0,
+      "cyclomatic": 3,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 45,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 48,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "open",
+          "kind": "method",
+          "line": 54,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/daemon-binary.ts",
+      "cognitive": 38,
+      "cyclomatic": 42,
+      "functions": [
+        {
+          "name": "supported",
+          "kind": "function",
+          "line": 22,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "assetName",
+          "kind": "function",
+          "line": 28,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "checksumFor",
+          "kind": "function",
+          "line": 34,
+          "cognitive": 2,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 35,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "ensureDaemonBinary",
+          "kind": "function",
+          "line": 41,
+          "cognitive": 30,
+          "cyclomatic": 29
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/embedded.ts",
+      "cognitive": 54,
+      "cyclomatic": 79,
+      "functions": [
+        {
+          "name": "configKey",
+          "kind": "function",
+          "line": 47,
+          "cognitive": 6,
+          "cyclomatic": 8,
+          "children": [
+            {
+              "name": "entries",
+              "kind": "arrow",
+              "line": 48,
+              "cognitive": 2,
+              "cyclomatic": 2,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 48,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "startEmbedded",
+          "kind": "function",
+          "line": 54,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 59,
+              "cognitive": 1,
+              "cyclomatic": 2
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 59,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "serverRuntime",
+          "kind": "function",
+          "line": 68,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "isServerRuntime",
+          "kind": "function",
+          "line": 72,
+          "cognitive": 2,
+          "cyclomatic": 5
+        },
+        {
+          "name": "spawnDaemon",
+          "kind": "function",
+          "line": 81,
+          "cognitive": 8,
+          "cyclomatic": 10,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 81,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "isAlive",
+              "kind": "arrow",
+              "line": 119,
+              "cognitive": 1,
+              "cyclomatic": 3
+            },
+            {
+              "name": "killOnExit",
+              "kind": "arrow",
+              "line": 120,
+              "cognitive": 1,
+              "cyclomatic": 2
+            },
+            {
+              "name": "cleanup",
+              "kind": "arrow",
+              "line": 121,
+              "cognitive": 0,
+              "cyclomatic": 2
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 127,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "stop",
+              "kind": "arrow",
+              "line": 132,
+              "cognitive": 0,
+              "cyclomatic": 1,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 133,
+                  "cognitive": 1,
+                  "cyclomatic": 2,
+                  "children": [
+                    {
+                      "name": "<anonymous>",
+                      "kind": "arrow",
+                      "line": 135,
+                      "cognitive": 1,
+                      "cyclomatic": 2
+                    },
+                    {
+                      "name": "<anonymous>",
+                      "kind": "arrow",
+                      "line": 136,
+                      "cognitive": 0,
+                      "cyclomatic": 1
+                    },
+                    {
+                      "name": "<anonymous>",
+                      "kind": "arrow",
+                      "line": 137,
+                      "cognitive": 0,
+                      "cyclomatic": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 144,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "resolveBinary",
+          "kind": "function",
+          "line": 161,
+          "cognitive": 9,
+          "cyclomatic": 9
+        },
+        {
+          "name": "daemonStartError",
+          "kind": "function",
+          "line": 193,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "freePort",
+          "kind": "function",
+          "line": 212,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 213,
+              "cognitive": 0,
+              "cyclomatic": 1,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 216,
+                  "cognitive": 2,
+                  "cyclomatic": 3,
+                  "children": [
+                    {
+                      "name": "<anonymous>",
+                      "kind": "arrow",
+                      "line": 219,
+                      "cognitive": 0,
+                      "cyclomatic": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "waitHealthy",
+          "kind": "function",
+          "line": 224,
+          "cognitive": 14,
+          "cyclomatic": 8,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 249,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/errors.ts",
+      "cognitive": 7,
+      "cyclomatic": 13,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 3,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 19,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "messageFor",
+          "kind": "method",
+          "line": 28,
+          "cognitive": 6,
+          "cyclomatic": 8
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 61,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 79,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/execution.ts",
+      "cognitive": 0,
+      "cyclomatic": 18,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 28,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "host",
+          "kind": "method",
+          "line": 29,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "resources",
+          "kind": "method",
+          "line": 30,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "files",
+          "kind": "method",
+          "line": 31,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "read",
+          "kind": "method",
+          "line": 34,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "write",
+          "kind": "method",
+          "line": 35,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "remove",
+          "kind": "method",
+          "line": 38,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "exec",
+          "kind": "method",
+          "line": 39,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stream",
+          "kind": "method",
+          "line": 43,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 49,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 50,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "open",
+          "kind": "method",
+          "line": 51,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get",
+          "kind": "method",
+          "line": 52,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 53,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "input",
+          "kind": "method",
+          "line": 54,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "resize",
+          "kind": "method",
+          "line": 57,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "events",
+          "kind": "method",
+          "line": 61,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "path",
+          "kind": "method",
+          "line": 65,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/http.ts",
+      "cognitive": 61,
+      "cyclomatic": 74,
+      "functions": [
+        {
+          "name": "isAbortError",
+          "kind": "function",
+          "line": 11,
+          "cognitive": 1,
+          "cyclomatic": 3
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 86,
+          "cognitive": 6,
+          "cyclomatic": 6,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 99,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 102,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "fetchOnce",
+          "kind": "method",
+          "line": 122,
+          "cognitive": 5,
+          "cyclomatic": 6
+        },
+        {
+          "name": "fetchWithTimeout",
+          "kind": "method",
+          "line": 144,
+          "cognitive": 15,
+          "cyclomatic": 12,
+          "children": [
+            {
+              "name": "onAbort",
+              "kind": "arrow",
+              "line": 156,
+              "cognitive": 0,
+              "cyclomatic": 2
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 162,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "authToken",
+          "kind": "method",
+          "line": 183,
+          "cognitive": 4,
+          "cyclomatic": 4
+        },
+        {
+          "name": "base",
+          "kind": "method",
+          "line": 191,
+          "cognitive": 2,
+          "cyclomatic": 3,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 197,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 198,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "ready",
+          "kind": "method",
+          "line": 212,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "url",
+          "kind": "method",
+          "line": 216,
+          "cognitive": 7,
+          "cyclomatic": 5
+        },
+        {
+          "name": "headers",
+          "kind": "method",
+          "line": 226,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "request",
+          "kind": "method",
+          "line": 233,
+          "cognitive": 7,
+          "cyclomatic": 8,
+          "children": [
+            {
+              "name": "send",
+              "kind": "arrow",
+              "line": 239,
+              "cognitive": 1,
+              "cyclomatic": 2
+            }
+          ]
+        },
+        {
+          "name": "open",
+          "kind": "method",
+          "line": 270,
+          "cognitive": 5,
+          "cyclomatic": 6,
+          "children": [
+            {
+              "name": "send",
+              "kind": "arrow",
+              "line": 277,
+              "cognitive": 2,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "toApiError",
+          "kind": "method",
+          "line": 300,
+          "cognitive": 3,
+          "cyclomatic": 4
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/index.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/native-sessions.ts",
+      "cognitive": 3,
+      "cyclomatic": 8,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 86,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "path",
+          "kind": "method",
+          "line": 88,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "activity",
+          "kind": "method",
+          "line": 91,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "events",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "action",
+          "kind": "method",
+          "line": 109,
+          "cognitive": 1,
+          "cyclomatic": 2
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/project-sync.ts",
+      "cognitive": 53,
+      "cyclomatic": 86,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 84,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "active",
+          "kind": "arrow",
+          "line": 92,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "selectionPaths",
+          "kind": "arrow",
+          "line": 96,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 97,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 99,
+              "cognitive": 3,
+              "cyclomatic": 3
+            }
+          ]
+        },
+        {
+          "name": "delay",
+          "kind": "function",
+          "line": 109,
+          "cognitive": 0,
+          "cyclomatic": 2,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 111,
+              "cognitive": 0,
+              "cyclomatic": 2,
+              "children": [
+                {
+                  "name": "done",
+                  "kind": "arrow",
+                  "line": 112,
+                  "cognitive": 0,
+                  "cyclomatic": 2
+                },
+                {
+                  "name": "abort",
+                  "kind": "arrow",
+                  "line": 114,
+                  "cognitive": 0,
+                  "cyclomatic": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 125,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "requireSelectionSupport",
+          "kind": "method",
+          "line": 127,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "preview",
+          "kind": "method",
+          "line": 131,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "export",
+          "kind": "method",
+          "line": 135,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "import",
+          "kind": "method",
+          "line": 139,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 142,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get",
+          "kind": "method",
+          "line": 146,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "retry",
+          "kind": "method",
+          "line": 149,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 152,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "checkpoint",
+          "kind": "method",
+          "line": 155,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "acceptCheckpoint",
+          "kind": "method",
+          "line": 158,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "objects",
+          "kind": "method",
+          "line": 161,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "missing",
+          "kind": "method",
+          "line": 164,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "getObject",
+          "kind": "method",
+          "line": 169,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "putObject",
+          "kind": "method",
+          "line": 173,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 176,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "relayCheckpoint",
+          "kind": "method",
+          "line": 188,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "visit",
+              "kind": "arrow",
+              "line": 190,
+              "cognitive": 18,
+              "cyclomatic": 13
+            }
+          ]
+        },
+        {
+          "name": "switchTo",
+          "kind": "method",
+          "line": 219,
+          "cognitive": 4,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "work",
+              "kind": "arrow",
+              "line": 228,
+              "cognitive": 20,
+              "cyclomatic": 19,
+              "children": [
+                {
+                  "name": "onUpdate",
+                  "kind": "arrow",
+                  "line": 241,
+                  "cognitive": 0,
+                  "cyclomatic": 2
+                },
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 246,
+                  "cognitive": 1,
+                  "cyclomatic": 2
+                },
+                {
+                  "name": "emit",
+                  "kind": "arrow",
+                  "line": 248,
+                  "cognitive": 0,
+                  "cyclomatic": 2
+                },
+                {
+                  "name": "onUpdate",
+                  "kind": "arrow",
+                  "line": 251,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                },
+                {
+                  "name": "onBytes",
+                  "kind": "arrow",
+                  "line": 254,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                },
+                {
+                  "name": "onUpdate",
+                  "kind": "arrow",
+                  "line": 256,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 260,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/run.ts",
+      "cognitive": 21,
+      "cyclomatic": 40,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 42,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "id",
+          "kind": "getter",
+          "line": 47,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "chatId",
+          "kind": "getter",
+          "line": 50,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "agent",
+          "kind": "getter",
+          "line": 53,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "status",
+          "kind": "getter",
+          "line": 56,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "kind",
+          "kind": "getter",
+          "line": 60,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "parentId",
+          "kind": "getter",
+          "line": 64,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stopReason",
+          "kind": "getter",
+          "line": 68,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "iterations",
+          "kind": "getter",
+          "line": 72,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "value",
+          "kind": "getter",
+          "line": 76,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stream",
+          "kind": "method",
+          "line": 81,
+          "cognitive": 6,
+          "cyclomatic": 8
+        },
+        {
+          "name": "<anonymous>",
+          "kind": "method",
+          "line": 95,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 100,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "respond",
+          "kind": "method",
+          "line": 109,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "sendInput",
+          "kind": "method",
+          "line": 117,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "interrupt",
+          "kind": "method",
+          "line": 126,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setModel",
+          "kind": "method",
+          "line": 135,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "setPermissionMode",
+          "kind": "method",
+          "line": 146,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "children",
+          "kind": "method",
+          "line": 157,
+          "cognitive": 0,
+          "cyclomatic": 1,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 162,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "refresh",
+          "kind": "method",
+          "line": 166,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "snapshot",
+          "kind": "method",
+          "line": 172,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "wait",
+          "kind": "method",
+          "line": 183,
+          "cognitive": 14,
+          "cyclomatic": 10
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/service.ts",
+      "cognitive": 1,
+      "cyclomatic": 5,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 18,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "updateStatus",
+          "kind": "method",
+          "line": 20,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "acquireUpdate",
+          "kind": "method",
+          "line": 28,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "releaseUpdate",
+          "kind": "method",
+          "line": 32,
+          "cognitive": 0,
+          "cyclomatic": 1
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/sse.ts",
+      "cognitive": 29,
+      "cyclomatic": 27,
+      "functions": [
+        {
+          "name": "readSSE",
+          "kind": "function",
+          "line": 13,
+          "cognitive": 13,
+          "cyclomatic": 9,
+          "children": [
+            {
+              "name": "onAbort",
+              "kind": "arrow",
+              "line": 21,
+              "cognitive": 0,
+              "cyclomatic": 1,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 21,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 24,
+              "cognitive": 0,
+              "cyclomatic": 1
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 51,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "indexOfBlankLine",
+          "kind": "function",
+          "line": 57,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "sepEnd",
+          "kind": "function",
+          "line": 66,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "parseEvent",
+          "kind": "function",
+          "line": 75,
+          "cognitive": 13,
+          "cyclomatic": 9
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/surfaces.ts",
+      "cognitive": 13,
+      "cyclomatic": 42,
+      "functions": [
+        {
+          "name": "savedDesktopID",
+          "kind": "function",
+          "line": 106,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 113,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "desktop",
+          "kind": "method",
+          "line": 115,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "scoped",
+          "kind": "method",
+          "line": 116,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "bindRuntime",
+          "kind": "method",
+          "line": 119,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "listDesktops",
+          "kind": "method",
+          "line": 122,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "createDesktop",
+          "kind": "method",
+          "line": 125,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "ensureProjectDesktop",
+          "kind": "method",
+          "line": 128,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "getDesktop",
+          "kind": "method",
+          "line": 131,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "updateDesktop",
+          "kind": "method",
+          "line": 134,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "startDesktop",
+          "kind": "method",
+          "line": 137,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "stopDesktop",
+          "kind": "method",
+          "line": 141,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "deleteDesktop",
+          "kind": "method",
+          "line": 145,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 148,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "status",
+          "kind": "method",
+          "line": 149,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "bind",
+          "kind": "method",
+          "line": 152,
+          "cognitive": 2,
+          "cyclomatic": 3
+        },
+        {
+          "name": "localStatus",
+          "kind": "method",
+          "line": 156,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "configureLocal",
+          "kind": "method",
+          "line": 158,
+          "cognitive": 1,
+          "cyclomatic": 2
+        },
+        {
+          "name": "open",
+          "kind": "method",
+          "line": 164,
+          "cognitive": 2,
+          "cyclomatic": 4
+        },
+        {
+          "name": "control",
+          "kind": "method",
+          "line": 168,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "close",
+          "kind": "method",
+          "line": 171,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "capture",
+          "kind": "method",
+          "line": 174,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "action",
+          "kind": "method",
+          "line": 177,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "receipt",
+          "kind": "method",
+          "line": 180,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "artifact",
+          "kind": "method",
+          "line": 183,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "watch",
+          "kind": "method",
+          "line": 187,
+          "cognitive": 5,
+          "cyclomatic": 8,
+          "children": [
+            {
+              "name": "abort",
+              "kind": "arrow",
+              "line": 189,
+              "cognitive": 1,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/types.ts",
+      "cognitive": 0,
+      "cyclomatic": 0,
+      "functions": []
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/version.ts",
+      "cognitive": 7,
+      "cyclomatic": 8,
+      "functions": [
+        {
+          "name": "versionAtLeast",
+          "kind": "function",
+          "line": 13,
+          "cognitive": 6,
+          "cyclomatic": 7
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/voice.ts",
+      "cognitive": 20,
+      "cyclomatic": 36,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 10,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "status",
+          "kind": "method",
+          "line": 12,
+          "cognitive": 1,
+          "cyclomatic": 3
+        },
+        {
+          "name": "start",
+          "kind": "method",
+          "line": 19,
+          "cognitive": 3,
+          "cyclomatic": 4
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 38,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "path",
+          "kind": "getter",
+          "line": 40,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "appendAudio",
+          "kind": "method",
+          "line": 43,
+          "cognitive": 3,
+          "cyclomatic": 4,
+          "children": [
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 51,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "stream",
+          "kind": "method",
+          "line": 57,
+          "cognitive": 9,
+          "cyclomatic": 11,
+          "children": [
+            {
+              "name": "abort",
+              "kind": "arrow",
+              "line": 61,
+              "cognitive": 1,
+              "cyclomatic": 2
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 65,
+              "cognitive": 2,
+              "cyclomatic": 3,
+              "children": [
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 70,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                },
+                {
+                  "name": "<anonymous>",
+                  "kind": "arrow",
+                  "line": 70,
+                  "cognitive": 0,
+                  "cyclomatic": 1
+                }
+              ]
+            },
+            {
+              "name": "<anonymous>",
+              "kind": "arrow",
+              "line": 85,
+              "cognitive": 0,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "stop",
+          "kind": "method",
+          "line": 89,
+          "cognitive": 1,
+          "cyclomatic": 2
+        }
+      ]
+    },
+    {
+      "path": "vendor/mindwire/packages/sdk/src/workspace.ts",
+      "cognitive": 10,
+      "cyclomatic": 47,
+      "functions": [
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 144,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "list",
+          "kind": "method",
+          "line": 145,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "get",
+          "kind": "method",
+          "line": 151,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 154,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "retry",
+          "kind": "method",
+          "line": 157,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "watch",
+          "kind": "method",
+          "line": 163,
+          "cognitive": 4,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "abort",
+              "kind": "arrow",
+              "line": 165,
+              "cognitive": 1,
+              "cyclomatic": 1
+            }
+          ]
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 299,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "put",
+          "kind": "method",
+          "line": 302,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "delete",
+          "kind": "method",
+          "line": 311,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 328,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "snapshot",
+          "kind": "method",
+          "line": 338,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "ensureAgent",
+          "kind": "method",
+          "line": 343,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "library",
+          "kind": "method",
+          "line": 347,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "editLibrary",
+          "kind": "method",
+          "line": 351,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "projectIcon",
+          "kind": "method",
+          "line": 356,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "createProject",
+          "kind": "method",
+          "line": 361,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "removeProjectFiles",
+          "kind": "method",
+          "line": 368,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "changes",
+          "kind": "method",
+          "line": 375,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "import",
+          "kind": "method",
+          "line": 380,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "constructor",
+          "kind": "constructor",
+          "line": 387,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "identity",
+          "kind": "method",
+          "line": 389,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setIdentity",
+          "kind": "method",
+          "line": 394,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "state",
+          "kind": "method",
+          "line": 397,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setDefault",
+          "kind": "method",
+          "line": 400,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "forget",
+          "kind": "method",
+          "line": 403,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "project",
+          "kind": "method",
+          "line": 406,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "setProject",
+          "kind": "method",
+          "line": 409,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "run",
+          "kind": "method",
+          "line": 415,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "start",
+          "kind": "method",
+          "line": 422,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "operations",
+          "kind": "method",
+          "line": 425,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "operation",
+          "kind": "method",
+          "line": 430,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "cancel",
+          "kind": "method",
+          "line": 433,
+          "cognitive": 0,
+          "cyclomatic": 1
+        },
+        {
+          "name": "watch",
+          "kind": "method",
+          "line": 437,
+          "cognitive": 4,
+          "cyclomatic": 7,
+          "children": [
+            {
+              "name": "abort",
+              "kind": "arrow",
+              "line": 439,
+              "cognitive": 1,
+              "cyclomatic": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "file_count": 20,
+    "function_count": 340,
+    "parse_error_count": 0,
+    "parse_error_file_count": 0,
+    "cognitive": {
+      "sum": 369,
+      "max": 30,
+      "median": 0,
+      "p90": 3,
+      "p95": 6
+    },
+    "cyclomatic": {
+      "sum": 693,
+      "max": 29,
+      "median": 1,
+      "p90": 4,
+      "p95": 8
+    }
+  }
+}

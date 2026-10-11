@@ -1,0 +1,3 @@
+[submodule "vendor/mindwire"]
+	path = vendor/mindwire
+	url = https://github.com/oblien/mindwire
